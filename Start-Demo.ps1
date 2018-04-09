@@ -15,14 +15,14 @@ Available Prepends (if text at line beginning contains the characters
 
 ## Revision History (version 4.1)
 
-## 4.1 - Author:   October 2013 Darwin Sanoy CSI-Windows.com
+## 4.1 - Author:   October 2013 Darwin Sanoy of CloudyWindows.io
 ##     - Added:    Supports comment blocks "<# comments #>"
 ##     - Added:    Change colors of comment lines
 
 
 ## Revision History (version 4.0)
 
-## 4.0 - Author:   June 2013 Darwin Sanoy CSI-Windows.com
+## 4.0 - Author:   June 2013 Darwin Sanoy of CloudyWindows.io
 ##     - Added:    Blank lines in demo file ignored
 ##     - Added:    ## lines in demo file do not display (double commented)
 ##     - Added:    #' line in demo file pause comment output (for Powerpoint like bullets)
@@ -165,7 +165,7 @@ for ($_i = $Command; $_i -lt $_lines.count; $_i++)
 	if ($WindowTitle -and -not $NoHeading -and -not $WroteBanner) {
       Write-Host -Foreground $CommentColor
 	  Write-Host -Foreground $CommentColor  "   ********************************"
-	  Write-Host -Foreground $CommentColor  "     CSI-Windows.com"
+	  Write-Host -Foreground $CommentColor  "     CloudyWindows.io"
       Write-Host -ForeGround "DarkRed"      "     $WindowTitle"
 	  Write-Host -Foreground $CommentColor  "   ********************************"
      $WroteBanner = $True
